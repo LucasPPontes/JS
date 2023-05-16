@@ -1,0 +1,7 @@
+inerhtml > recebe um html
+
+textContent e innerText> não recebe um html apenas valor
+
+innerText > exibe apenas o que está sendo mostrado na tela
+
+textContent > mostra tudo que está contido no documento html

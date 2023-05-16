@@ -1,0 +1,3 @@
+const > não pode ter seu valor reatribuido
+let > variável local pode ser vista apenas em uma determinada função
+var > variável global, pode ser vista em qualquer parte do código

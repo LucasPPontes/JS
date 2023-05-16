@@ -1,0 +1,5 @@
+DOM > Document Object Model
+
+podemos deixar o nossa chamada do script no <head>
+porém precisamos fazer com que o body seja carregado antes
+(recomendado utilizar uma função para verificar se o body já foi carregado)

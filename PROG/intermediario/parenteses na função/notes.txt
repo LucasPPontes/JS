@@ -1,0 +1,5 @@
+quando chamamos uma função e utilizamos os parênteses estamos executando essa função
+
+quando chamamos uma função e não utilizamos os parênteses estamos atribuíndo essa função a uma variável
+
+para executar uma função dentro do html precisamos passar os parênteses

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="loaded()">
+
+    <div class="div1">
+        <h1 id="item1" onclick="console.log('h1 foi clicado')">Clique em mim</h1>
+        <input type="text" onchange="changeItem1(this)">
+    </div>
+    
+    <div class="div2">
+        <h1 id="item2" onclick="console.log(this.style.color = 'red')">Clique para mudar a cor</h1>
+        <input type="text" oninput="changeItem2(this)">
+    </div>
+
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)" class="click">
+        Click
+    </div>
+
+    <div>
+        <h1 id="titulo">Meu texto</h1>
+    </div>
+    
+</body>
+</html>
